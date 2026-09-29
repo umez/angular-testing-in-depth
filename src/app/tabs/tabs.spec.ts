@@ -7,7 +7,7 @@ import { TabsComponent } from './tabs';
 import { createTestFixture } from '../testing/testing-utils';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-describe.skip("Courses", async () => {
+describe("Courses", async () => {
 
   let fixture: ComponentFixture<TabsComponent>;
   let de: DebugElement;

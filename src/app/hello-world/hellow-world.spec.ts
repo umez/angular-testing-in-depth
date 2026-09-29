@@ -2,7 +2,7 @@ import { HelloWorld } from "./hello-world";
 import { describe, expect, it } from "vitest";
 import { createTestFixture } from "../testing/testing-utils";
 
-describe.skip("Hello world", async () => {
+describe("Hello world", async () => {
 
   const { fixture, de, el, componentInstance } = await createTestFixture(HelloWorld);
 

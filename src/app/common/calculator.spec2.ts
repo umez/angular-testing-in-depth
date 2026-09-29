@@ -2,7 +2,7 @@
 import { calculator } from './calculator';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-describe.skip("Vi test fundamental ", () => {
+describe("Vi test fundamental ", () => {
   // beforeEach(() => { // set in vitest-base config
   //   vi.clearAllMocks();
   //   vi.resetAllMocks();

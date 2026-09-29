@@ -8,7 +8,7 @@ import { provideRouter } from '@angular/router';
 import { By } from '@angular/platform-browser';
 import { CoursesDialog } from '../courses-dialog/courses-dialog';
 
-describe.skip("Course card list", () => {
+describe("Course card list", () => {
 
   let fixture: ComponentFixture<CoursesCardList>;
   let de: DebugElement;
